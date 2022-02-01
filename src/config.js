@@ -28,8 +28,10 @@ const layerConfigurations = [
     layersOrder: [
       { name: "Background" },
       { name: "Body" },
+      { name: "Outline" },
       { name: "Eyes" },
       { name: "Mouth" },
+      { name: "Clothing" },
       { name: "Accessories" },
     ],
   },
