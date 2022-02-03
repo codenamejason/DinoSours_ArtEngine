@@ -6,7 +6,7 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "DinoSours";
-const description = "Remember to replace this description";
+const description = "DinoSours is a collection of 4444 unique NFT's meant to make you smile";
 const baseUri = "ipfs://NewUriToReplace";
 
 const solanaMetadata = {
@@ -24,11 +24,10 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 15,
     layersOrder: [
       { name: "Background" },
       { name: "Body" },
-      { name: "Outline" },
       { name: "Eyes" },
       { name: "Mouth" },
       { name: "Clothing" },
@@ -37,7 +36,7 @@ const layerConfigurations = [
   },
 ];
 
-const shuffleLayerConfigurations = false;
+const shuffleLayerConfigurations = true;
 
 const debugLogs = false;
 
